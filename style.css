@@ -1,0 +1,111 @@
+#title, #testimonials, #cta{
+ background-color:#000;
+ color:#fff;
+}
+#pricing, #features, #testimonials, #cta, #footer{
+    text-align: center;
+}
+
+
+h1{
+    font-size: 3.5rem;
+}
+
+h2{
+    font-family: "montesserat bold";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+h3 ,h1{
+    font-family:"montesserat black";
+}
+
+p{
+    font-size: 1.2rem;
+}
+
+.container-fluid{
+padding: 3% 15%;
+}
+
+.title-img{
+    width:95%;
+    border-radius: 100%;
+    position:relative;
+    left:15%;
+    padding-top: 5%;
+}
+@media(max-width:1080px){
+    .title-img{
+        position:static;
+    }
+}
+
+.btn{
+    margin: 7% 3%;
+}
+/* navigation-bar */
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-family: "ubuntu";
+    font-size: 2.5rem;
+    
+}
+.nav-item{
+ padding: 0 18px;   
+}
+.nav-link{
+font-size: 1.2rem;
+font-family: "montesserat-light";
+}
+
+/******************************** features-section ***********************************/
+
+#features{
+    background-color: #fff;
+    padding:3% 5% 7%;
+}
+.icon{
+    color:rgb(82, 76, 76);
+ padding-bottom: 5%;
+}
+.icon:hover{
+    color:#000;
+}
+
+/******************************* testimonial-section **************************/
+
+.carousel-item{
+    padding:7% 15%;
+}
+
+.test-img{
+    width:10%;
+    border-radius: 100%;
+}
+
+/****************** pricing-section *******************/
+
+#pricing{
+    padding:5% 7%;
+}
+
+.pricing-column{
+padding:3% 2%;
+}
+
+/********************** call to action ******************/
+
+#cta{
+    padding:7% 15%;
+}
+
+/************************ Footer-section ******************/
+#footer{
+    font-family:"montesserat light";
+    padding-top: 1%;
+}
